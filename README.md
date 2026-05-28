@@ -30,15 +30,15 @@ The system records attendance digitally and can also send alert emails for absen
 
 ### Python Modules Used
 
-* `tkinter`
-* `openpyxl`
-* `matplotlib`
-* `csv`
-* `os`
-* `sys`
-* `threading`
-* `smtplib`
-* `datetime`
+* tkinter
+* openpyxl
+* matplotlib
+* csv
+* os
+* sys
+* threading
+* smtplib
+* datetime
 
 ---
 
