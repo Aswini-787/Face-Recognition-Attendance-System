@@ -48,17 +48,26 @@ The system records attendance digitally and can also send alert emails for absen
 Face-Recognition-Attendance-System/
 │
 ├── Loginpage.py
-├──
+├── dashboard.py
+├── register_face.py
+├── train_model.py
+├── recogonize_face.py
+├── emailverification.py
 ├── alertemails.py
 ├── sendteacher.py
 ├── README.md
 ├── requirements.txt
-├── images/
-└── attendance/
+├── datasets.xlsx
+└── attendance.xlsx
 ```
 
 ## How It Works
+Login 
+1. The webcam captures live video.
+2. The system detects and recognizes admin's face.
+3. Logged into the Dashboard.
 
+Marking Attendance
 1. The webcam captures live video.
 2. The system detects and recognizes faces.
 3. Attendance is marked automatically for identified individuals.
@@ -103,6 +112,6 @@ python main.py
 
 ---
 
-## Author
+## Authors
 
 S Aswini and Vishruth Arulselvam
